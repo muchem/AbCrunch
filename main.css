@@ -1,0 +1,143 @@
+* {
+  margin: 0px;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#icon {
+  height: 70px;
+  width: 70px;
+}
+
+.jumbotron {
+  background-image: url("boxer-hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+  color: #f6f6f6;
+  padding: 100px;
+  letter-spacing: 5px;
+}
+
+#demo {
+  margin: 0px;
+}
+
+.container-fluid {
+  background-color: #180025;
+  margin: 0px;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 85vh;
+}
+
+.img-box {
+  text-align: center;
+}
+
+#perk-img {
+  width: 300px;
+}
+
+.newsletter-box {
+  padding: 30px;
+}
+
+form {
+  margin-left: 35%;
+  padding-bottom: 50px;
+}
+
+p {
+  text-indent: .5rem;
+  margin: 0px;
+}
+
+h2 {
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+
+h1 {
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
+}
+
+h6, button {
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+li {
+  list-style: none;
+  margin: 0px 5px 3px 0px;
+  color: #f2f2f2;
+}
+
+.d-flex {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.link-box {
+  padding: 20px 0 0 0;
+}
+
+#logo {
+  width: 30px;
+  height: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+  .jumbotron {
+    height: 60vh;
+  }
+  .carousel-inner img {
+    height: 50vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .jumbotron {
+    height: 500px;
+    padding: 60px;
+  }
+  .carousel-inner img {
+    height: 450px;
+  }
+  form {
+    margin-left: 25%;
+    text-align: center;
+  }
+  .newsletter-box {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .jumbotron {
+    height: 400px;
+    padding: 50px;
+  }
+  .carousel-inner img {
+    height: 350px;
+  }
+  form {
+    margin-left: 0px;
+  }
+  form button {
+    margin-top: 5px;
+  }
+  .newsletter-box {
+    padding: 10px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
