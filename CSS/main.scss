@@ -5,6 +5,7 @@
 body{
   font-family: 'Source Sans Pro', sans-serif;
 }
+
 #icon {
     height:70px;
     width:70px;
@@ -75,13 +76,17 @@ body{
   }
   @media screen and(max-width:1024px){
     .jumbotron{
-      height:60vh;
+      height:70vh;
     }
     .carousel-inner img{
       height:50vh;
     }
   }
   @media screen and (max-width:768px){
+    .nav-item{
+      border-bottom:solid #75757560 1px;
+      padding:10px;
+    }
     .jumbotron{
       height:500px;
       padding:60px;
