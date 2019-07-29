@@ -12,7 +12,7 @@ body {
 }
 
 .jumbotron {
-  background-image: url("boxer-hero.jpg");
+  background-image: url("../images/boxer-hero.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;

@@ -1,0 +1,8 @@
+$primary-purple:rgb(24, 0, 37);
+@mixin Background-img($url){
+    background-image:url($url);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    
+}
