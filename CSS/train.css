@@ -116,8 +116,11 @@ li {
 }
 @media screen and (max-width:768px){
     .nav-item{
-        border-bottom:solid #75757560 1px;
-        padding:10px;
+       border-bottom:1px solid  #75757560;
+        padding:0px;
+      }
+      .last-item{
+          border-bottom:none;
       }
     .jumbotron{
         height:40vh;
