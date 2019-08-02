@@ -108,7 +108,9 @@ li {
 @media screen and (max-width: 768px) {
   .nav-item {
     border-bottom: solid #75757560 1px;
-    padding: 10px;
+  }
+  .last-item {
+    border: none;
   }
   .jumbotron {
     height: 500px;
