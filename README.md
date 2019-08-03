@@ -9,7 +9,7 @@ What things you need to install the software and how to install them
 git bash
 Installing
 Clone the repo
-git clone 
+git clone https://github.com/muchem/AbCrunch.git
 Open Project Folder
 
 Open index.html in your favorite browser
