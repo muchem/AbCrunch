@@ -8,7 +8,7 @@ What things you need to install the software and how to install them
 
 git bash
 
-##Installing
+## Installing
  1.Clone the repo
  git clone https://github.com/muchem/AbCrunch.git
  2.Open Project Folder
@@ -20,10 +20,10 @@ Enjoy :)
 Built With
 
 
-##Contributors
+## Contributors
 
 
-##License
+## License
 
 
-##Acknowledgments
+## Acknowledgments
