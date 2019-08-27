@@ -31,3 +31,11 @@ Melissa Uchem
 
 
 ## Acknowledgments
+Design Inspiration
+
+24 Hour Fitness
+https://www.24hourfitness.com/?gclid=EAIaIQobChMI0qnGnoej5AIVIP_jBx2TywGBEAAYASAAEgJosvD_BwE&adb_id=PPC_ADB_ACQ_022018_JS190220ACQ&ef_id=EAIaIQobChMI0qnGnoej5AIVIP_jBx2TywGBEAAYASAAEgJosvD_BwE:G:s&s_kwcid=AL!6388!3!331988548304!e!!g!!24%20hour%20fitness
+
+Planet Fitness
+https://www.planetfitness.com/
+
