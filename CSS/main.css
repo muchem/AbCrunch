@@ -130,7 +130,7 @@ li {
 
 @media screen and (max-width: 576px) {
   .jumbotron {
-    height: 400px;
+    height: 350px;
     padding: 50px;
   }
   .carousel-inner img {
