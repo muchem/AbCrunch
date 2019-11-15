@@ -8,9 +8,40 @@
     <link rel = 'stylesheet' href = "./CSS/main.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
 </head>
 <body>
+   <!--nav-->
+   <div class="nav">
+     <span class="navbar-toggle" id="js-navbar-toggle">
+       <img src="http://fasignoms.com/wp-content/themes/twentyseventeen/img/menu_bar.png"
+         alt="toggle-icon"id = "toggle-icon" width="28px"
+         onclick="toggle()">
+     </span>
+     <div class="logo"style="color:white;">
+         <h3>
+           AbCrunch</h3>
+     </div>
+     <div class="nav-link-box" id="js-menu">
+       <ul class="nav-links">
+         <li class="nav-item">
+           <a  href="membership.html"> Gym Memberships</a>
+         </li>
+         <li class="nav-item">
+           <a href="near.html">Gyms Near Me</a>
+         </li>
+         <li class="nav-item">
+           <a href="train.html">Training</a>
+         </li>
+         <li class="nav-item last-item">
+           <a href="login.html">Login</a>
+         </li>
+       </ul>
+     </div>
+   </div>
+   <!--end nav-->
+  <!--
    <nav class="navbar sticky-top navbar navbar-expand-md bg-dark navbar-dark">
        <a class="navbar-brand " href="index.html">AbCrunch</a>
            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -22,17 +53,18 @@
              <a class="nav-link " href="membership.html"> Gym Memberships</a>
              </li>
           <li class="nav-item">
-            <a class="nav-link" href="near.html">Gyms Near Me</a>
+            <a href="near.html">Gyms Near Me</a>
             </li>
           <li class="nav-item">
-             <a class="nav-link" href="train.html">Training</a>
+             <a href="train.html">Training</a>
             </li>
            <li class="nav-item last-item">
-              <a class="nav-link" href="login.html">Login</a>
+              <a href="login.html">Login</a>
              </li>    
          </ul>
      </div>  
  </nav>
+-->
   <div class ="jumbotron text-center "style = "margin:0;">
       <div class = "intro-text">
                 <h2 class = " animated bounceInDown">AbCrunch Gym </h2>
@@ -114,7 +146,7 @@
         <div class = "col-md-6"style = "padding:20px 10px 20px 0; color:white;">
           <h2>Fit Plans</h2>
           <p>Let our knowledgeable team get you started with a one-on-one workout session and a 7-day plan for success.
-            Whether you’re just starting out or looking to level up your performance, we’ll personalize a 24 Hour Fitness®
+            Whether you’re just starting out or looking to level up your performance, we’ll personalize a AbCrunch®
             Fit Plan for you to fit your life now and the results you’re looking for. </p>
              <button type="button" class="btn btn-danger">Learn More</button>
               </div>
@@ -181,7 +213,7 @@
       <p class = "text-center" style = "margin:0px;padding:10px 0 10px 0;color:#f2f2f2;"><small>
       Terms of use - Privacy Policy</small></p>
   </div>
-
+        <script src ="JS/script.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>

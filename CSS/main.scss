@@ -2,20 +2,82 @@
 *{
     margin:0px;
 }
+.nav {
+  display: flex;
+  padding: 0 15px;
+  align-items: center;
+  background-color: #2e2e2eda;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.logo {
+  flex: 1;
+   padding:3px 20px;
+   font-family: 'Staatliches',
+   cursive;
+   h3{
+     margin:0;
+   }
+}
+.nav-link-box ul {
+  display: flex;
+  margin-bottom: 3px;
+}
+.navbar-toggle {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 24px;
+  display: none;
+}
+
+.nav-links li {
+  list-style: none;
+  margin: 10px;
+}
+.nav-links{
+  padding:3px 0px;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #d5d5d5;
+}
+
+.nav-links a:hover {
+  text-decoration: none;
+  color: #d5d5d5;
+}
+.logo-hero {
+  width: 50px;
+  padding: 0 5px 0 0;
+}
+   #toggle-icon {
+     margin-bottom: 14px;
+   }
+/**/
 body{
   font-family: 'Source Sans Pro', sans-serif;
 }
-
+.intro-text{
+  position: relative;
+  top:25%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
 #icon {
     height:70px;
     width:70px;
   }
   .jumbotron{
-   @include Background-img('../images/boxer-hero.jpg');
+   @include Background-img('../images/boxer-hero-edit.jpg');
     height:100vh;
     color:#f6f6f6;
     padding:100px;
-    letter-spacing:5px;
+    letter-spacing:2px;
   }
   #demo{
     margin:0px;
@@ -47,19 +109,13 @@ body{
   }
   h2{
      animation-delay:1.5s;
+ 
 } 
   h1{
     animation-delay:2.5s;
   }
   h6,button{
     animation-delay:3s;
-  }
-
-  li{
-    list-style:none;
-    margin:0px 5px 3px 0px;
-    color:#f2f2f2;
-    
   }
   .d-flex{
     justify-content: center;
@@ -72,7 +128,6 @@ body{
   #logo{
     width:30px;
     height:30px;
-   
   }
   @media screen and(max-width:1024px){
     .jumbotron{
@@ -83,10 +138,6 @@ body{
     }
   }
   @media screen and (max-width:768px){
-    .nav-item{
-      border-bottom:solid #75757560 1px;
-     
-    }
     .last-item{
       border:none;
     }
@@ -107,10 +158,37 @@ body{
     }
 }
     @media screen and (max-width:576px){
+       .navbar-toggle {
+         display: block;
+         margin-left: 5px;
+       }
+       .logo {
+         margin-right: 350px;
+       }
+       .nav {
+         flex-direction: column;
+       }
+      .nav-link-box ul {
+          margin-right: 50px;
+      }
+       .nav-link-box {
+         display: none;
+       }
+       .nav-links {
+         flex-direction: column;
+
+       }
+       .active {
+         display: block;
+       }
+      /**/
       .jumbotron{
         height:400px;
         padding:50px;
        
+      }
+      .intro-text {
+        top: 40%;
       }
       .carousel-inner img{
         height:350px;
@@ -119,7 +197,6 @@ body{
         margin-left:0px;
         button{
           margin-top:5px;
-          
         }
       }
       .newsletter-box{
