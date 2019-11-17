@@ -206,9 +206,7 @@ li {
     .jumbotron{
         height:40vh;
     }
-    .title{
-        font-size:40px
-    }
+
 }
 @media screen and (max-width:576px){
  
@@ -224,6 +222,9 @@ li {
     }
     h2{
         text-align:center;
+    }
+    .title{
+        padding-top:50px
     }
       .navbar-toggle {
           display: block;
