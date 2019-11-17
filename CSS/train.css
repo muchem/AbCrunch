@@ -29,6 +29,10 @@ body{
 .logo h3 {
     margin: 0;
 }
+.logo a {
+    text-decoration: none;
+    color: white;
+}
 .nav-link-box ul {
     display: -webkit-box;
     display: -ms-flexbox;
