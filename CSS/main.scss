@@ -129,6 +129,11 @@ body{
     width:30px;
     height:30px;
   }
+  li {
+    list-style: none;
+    margin: 0px 5px 3px 0px;
+    color: #f2f2f2;
+  }
   @media screen and(max-width:1024px){
     .jumbotron{
       height:70vh;

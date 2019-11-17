@@ -4,33 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+         <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
      <link rel = "stylesheet" href = "./CSS/near.css">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
 <body>
-    <nav class="navbar sticky-top navbar navbar-expand-md bg-dark navbar-dark">
-    <a class="navbar-brand " href="index.html">AbCrunch</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav text-center">
-            <li class="nav-item">
-                <a class="nav-link " href="membership.html"> Gym Memberships</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="near.html">Gyms Near Me</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="train.html">Training</a>
-            </li>
-            <li class="nav-item last-item">
-                <a class="nav-link" href="login.html">Login</a>
-            </li>
-        </ul>
-    </div>
-    </nav>
+      <!--nav-->
+      <div class="nav">
+          <span class="navbar-toggle" id="js-navbar-toggle">
+              <img src="http://fasignoms.com/wp-content/themes/twentyseventeen/img/menu_bar.png" alt="toggle-icon"
+                  id="toggle-icon" width="28px" onclick="toggle()">
+          </span>
+          <div class="logo" style="color:white;">
+              <h3>
+                  AbCrunch</h3>
+          </div>
+          <div class="nav-link-box" id="js-menu">
+              <ul class="nav-links">
+                  <li class="nav-item">
+                      <a href="membership.html"> Gym Memberships</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="near.html">Gyms Near Me</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="train.html">Training</a>
+                  </li>
+                  <li class="nav-item last-item">
+                      <a href="login.html">Login</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+      <!--end nav-->
 
     <script src = "./JS/script.js"></script>
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
