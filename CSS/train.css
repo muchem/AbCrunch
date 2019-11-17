@@ -89,6 +89,9 @@ body{
     background-color: #180025;
     margin: 0px;
 }
+.title{
+    padding-top:25px;
+}
 .img-box,.img-box-2,.img-box-3,.img-box-4{
     position:relative;
     overflow: hidden;
@@ -204,10 +207,7 @@ li {
     }
 }
 @media screen and (max-width:576px){
-    
-    .title{
-        font-size:30px
-    }
+ 
     .jumbotron{
         height:45vh;
     }
