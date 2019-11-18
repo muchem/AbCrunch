@@ -82,10 +82,12 @@ html,body {
      margin-bottom: 14px;
  }
 
- /**/
- #map {
-     height: 50%;
- }
+  #map {
+      height: 400px;
+      /* The height is 400 pixels */
+      width: 100%;
+      /* The width is the width of the web page */
+  }
  @media screen and (max-width:576px){
        .navbar-toggle {
            display: block;
