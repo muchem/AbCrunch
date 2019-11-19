@@ -14,7 +14,7 @@ html,body {
      -webkit-box-align: center;
      -ms-flex-align: center;
      align-items: center;
-     background-color: #2e2e2eda;
+     background-color: #2e2e2e;
      position: fixed;
      top: 0;
      width: 100%;
@@ -84,10 +84,22 @@ html,body {
 
   #map {
       height: 100vh;
-      /* The height is 400 pixels */
       width: 100%;
-      /* The width is the width of the web page */
+      margin-top:52px;
   }
+  .locate-sec{
+      background-color:#272727;
+      padding-top:52px;
+}
+.locate-txt{
+    text-align:center;
+    color:#f2f2f2;
+    padding-top:20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.locate-txt h1{
+    margin-bottom:0;
+}
  @media screen and (max-width:576px){
        .navbar-toggle {
            display: block;
@@ -123,6 +135,4 @@ html,body {
        .active {
            display: block;
        }
-
-       /**/
  }
