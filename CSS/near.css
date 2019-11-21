@@ -108,9 +108,33 @@ html,body {
 .locate-txt h1{
     margin-bottom:0;
 }
+.locate-txt h6{
+    margin-bottom:15px;
+}
+.address-box{
+    background-color:white;
+    padding:20px;
+    color:black;
+   
+}
+.address-box img{
+    width:12px;
+}
+.address-txt{
+    color:#707070
+}
+#output-sec{
+    height:400px;
+    overflow: scroll;
+    margin-top:30px;
+    margin-left:15px;
+}
 @media screen and (max-width:768px){
     #map {
         margin-top: 0;
+    }
+    .locate-sec{
+        padding-top:10px;
     }
 }
  @media screen and (max-width:576px){

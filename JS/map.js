@@ -16,13 +16,23 @@ function initMap() {
 let locations = [
     {
         city:'Houston',
-        state:'Texas'
+        area:'Richmond',
+        address:'5721 Westheimer Rd., Houston, TX'
     },
     {
-        city:'New York'
+        city: 'Houston',
+        area: 'Dairy Ashford',
+        address: '12553 Westheimer Road, Houston, TX'
     },
     {
-        city:'Tampa'
+        city: 'Houston',
+        area: 'Galleria',
+        address: '5070 Richmond Ave, Houston, TX'
+    },
+    {
+        city:'Houston',
+        area: 'Meyerland Plaza',
+        address: '8650 Endicott Ln, Houston, TX'
     }
 ]
 let searchBox = document.getElementById('search-box');
@@ -40,7 +50,12 @@ const search = () =>{
     })
     filtered.forEach(location =>{
         results += `
-        <h4>${location.city}</h4>
+        <div class = "address-box">
+        <h4>${location.area}</h4>
+        <h6 class = "address-txt">
+        <img src ="https://p7.hiclipart.com/preview/517/350/522/paper-google-map-maker-computer-icons-world-map-location-icon.jpg">
+        ${location.address}</h6>
+        </div>
         `
     })
     outputSec.innerHTML = results;
