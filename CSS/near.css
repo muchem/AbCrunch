@@ -88,17 +88,30 @@ html,body {
       margin-top:52px;
   }
   .locate-sec{
-      background-color:#272727;
+      background-color:rgb(24, 0, 37);
       padding-top:52px;
+      margin-left:0px;
+      /* #272727*/
+}
+.search-bnt{
+    color:#f2f2f2;
+    background-color:#dd2525;
+    padding:4px;
+    border:solid #1b1b1b 1px;
 }
 .locate-txt{
     text-align:center;
     color:#f2f2f2;
     padding-top:20px;
-    font-family:g;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .locate-txt h1{
     margin-bottom:0;
+}
+@media screen and (max-width:768px){
+    #map {
+        margin-top: 0;
+    }
 }
  @media screen and (max-width:576px){
        .navbar-toggle {
@@ -135,4 +148,5 @@ html,body {
        .active {
            display: block;
        }
+       
  }

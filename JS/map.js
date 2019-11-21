@@ -14,11 +14,34 @@ function initMap() {
     });
 }
 let locations = [
+    {
+        city:'Houston',
+        state:'Texas'
+    },
+    {
+        city:'New York'
+    },
+    {
+        city:'Tampa'
+    }
 ]
+let searchBox = document.getElementById('search-box');
+searchBox.addEventListener("keyup", function (event) {
+    if (event.keyCode === 13) {
+        document.getElementById("loc-bnt").click();
+    }
+});
 const search = () =>{
     let input = document.getElementById('search-box').value.toLocaleLowerCase();
+    let outputSec = document.getElementById('output-sec');
+    let results = "";
     let filtered = locations.filter(locoObj =>{
         return locoObj.city.toLocaleLowerCase() == input;
     })
- console.log(filtered);
+    filtered.forEach(location =>{
+        results += `
+        <h4>${location.city}</h4>
+        `
+    })
+    outputSec.innerHTML = results;
 }
