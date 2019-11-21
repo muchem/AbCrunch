@@ -128,6 +128,7 @@ html,body {
     overflow: scroll;
     margin-top:30px;
     margin-left:15px;
+     display:none;
 }
 @media screen and (max-width:768px){
     #map {

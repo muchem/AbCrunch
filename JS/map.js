@@ -44,6 +44,11 @@ searchBox.addEventListener("keyup", function (event) {
 const search = () =>{
     let input = document.getElementById('search-box').value.toLocaleLowerCase();
     let outputSec = document.getElementById('output-sec');
+    outputSec.style.display = "block";
+    if(input == ""){
+        outputSec.style.display = "none";
+        alert('Please enter a city..');
+    }
     let results = "";
     let filtered = locations.filter(locoObj =>{
         return locoObj.city.toLocaleLowerCase() == input;
