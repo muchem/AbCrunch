@@ -19,7 +19,7 @@ let locations = [
         area:'Richmond',
         address:'5721 Westheimer Rd., Houston, TX'
     },
-    {
+    {  
         city: 'Houston',
         area: 'Dairy Ashford',
         address: '12553 Westheimer Road, Houston, TX'
@@ -31,6 +31,52 @@ let locations = [
     },
     {
         city:'Houston',
+        area: 'Meyerland Plaza',
+        address: '8650 Endicott Ln, Houston, TX'
+    },
+    {
+        city: 'New York',
+        area: 'Midtown',
+        address: '153 E 53rd St, New York, NY'
+    },
+    {
+        city: 'New York',
+        area: 'Madison Square Park',
+        address: '225 Fifth Avenue, New York, NY'
+
+    },
+    {
+        city: 'New York',
+        area: 'Kew Gardens' ,
+        address: '8002 Kew Gardens, Kew Gardens, NY'
+    },
+    {
+        city: 'New York',
+        area: 'Riverdale',
+        address: '298 West 231st Street, Bronx, NY'
+    },
+    {
+        city: 'Los Angeles',
+        area: 'Mid Wilshirea',
+        address: '3699 Wilshire Blvd, Suite 110, Los Angeles, CA'
+    },
+    {
+        city: 'Los Angeles',
+        area: 'La Cienega',
+        address: '5045 W. Slauson Ave., Los Angeles, CA'
+    },
+    {
+        city: 'Los Angeles',
+        area: 'Meyerland Plaza',
+        address: '2929 31st Street,Meyerland , CA'
+    },
+    { 
+        city: 'Los Angeles',
+        area: 'West Hollywood',
+        address: '8612 Santa Monica Blvd, West Hollywood, CA'
+    },
+    {
+        city: 'Houston',
         area: 'Meyerland Plaza',
         address: '8650 Endicott Ln, Houston, TX'
     }
@@ -53,6 +99,9 @@ const search = () =>{
     let filtered = locations.filter(locoObj =>{
         return locoObj.city.toLocaleLowerCase() == input;
     })
+    if(filtered.length == 0){
+        results = `<p>no locations found in "${input}".`;
+    }
     filtered.forEach(location =>{
         results += `
         <div class = "address-box">

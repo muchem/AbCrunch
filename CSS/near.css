@@ -115,6 +115,7 @@ html,body {
     background-color:white;
     padding:20px;
     color:black;
+    border-bottom:1px solid #c0c0c0;
    
 }
 .address-box img{
@@ -123,16 +124,19 @@ html,body {
 .address-txt{
     color:#707070
 }
+#search-box{
+    margin-bottom:20px;
+}
 #output-sec{
-    height:400px;
+    height:70vh;
     overflow: scroll;
-    margin-top:30px;
-    margin-left:15px;
+    margin:30px 50px;
+    background: #ebebeb;
      display:none;
 }
 @media screen and (max-width:768px){
     #map {
-        margin-top: 0;
+        margin-top: 5px;
     }
     .locate-sec{
         padding-top:10px;
@@ -143,7 +147,9 @@ html,body {
            display: block;
            margin-left: 5px;
        }
-
+       #output-sec{
+             margin:30px 20px;
+       }
        .logo {
            margin-right: 350px;
        }
@@ -169,9 +175,10 @@ html,body {
            -ms-flex-direction: column;
            flex-direction: column;
        }
-
        .active {
            display: block;
        }
-       
+       #map{
+           height:90vh;
+       }
  }
