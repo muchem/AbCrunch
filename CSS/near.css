@@ -85,13 +85,13 @@ html,body {
   #map {
       height: 100vh;
       width: 100%;
-      margin-top:52px;
+     
   }
   .locate-sec{
-      background-color:rgb(24, 0, 37);
-      padding-top:52px;
+
+    width:90%;
       margin-left:0px;
-      /* #272727*/
+    
 }
 .search-bnt{
     color:#f2f2f2;
@@ -100,7 +100,7 @@ html,body {
     border:solid #1b1b1b 1px;
 }
 .locate-txt{
-    text-align:center;
+  
     color:#f2f2f2;
     padding-top:20px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -113,9 +113,15 @@ html,body {
 }
 .address-box{
     background-color:white;
-    padding:20px;
+    padding:10px 20px 50px 10px;
     color:black;
-    border-bottom:1px solid #c0c0c0;
+      border:1px solid #ffffff;
+      box-shadow: 2px 2px 9px 2px #d1d1d1;
+  
+    margin-bottom: 20px;
+    margin-right: 10px;
+     margin-left: 10px;
+
    
 }
 .address-box img{
@@ -128,11 +134,31 @@ html,body {
     margin-bottom:20px;
 }
 #output-sec{
-    height:70vh;
+    height:80vh;
     overflow: scroll;
-    margin:30px 50px;
-    background: #ebebeb;
+    margin:15px;
+    width:100%;
      display:none;
+}
+.area-txt{
+    color:#440044;
+}
+.notice-txt{
+    font-size:14px;
+    margin:0;
+    padding: 5px 20px;
+}
+#near-by{
+     padding: 3px 20px;
+     display:none;
+}
+.join-bnt{
+    float:right;
+    color:white;
+    background-color:#a321a3;
+    padding:5px;
+    border: solid 1px;
+      border-radius: 3px;
 }
 @media screen and (max-width:768px){
     #map {

@@ -41,25 +41,26 @@
           </div>
       </div>
       <!--end nav-->
-      <div class = "container-fluid" style = "padding:0">
+            <div class="jumbotron">
+                 <div class="locate-txt"style = "color:black;margin-bottom:0;">
+                     <h4>FIND A GYM NEAR YOU</h4>
+                 </div>
+                <div class="">
+                    <input placeholder="Enter Your City..." id="search-box"> <button type="button" class="search-bnt"
+                        id="loc-bnt" onclick="search()">Locate</button>
+                </div>
+            </div>
+      <div class = "container" style = "padding:0">
           <div class = "row">
-                 <div class="col-md-8"style = "padding:0">
-                     <div id="map"></div>
-                 </div>
                  <div class="col-md-4 locate-sec">
-                     <div class="locate-txt">
-                         <h1>Find a Gym</h1>
-                         <h6>
-                             Convenient for you</h6>
-                     </div>
-                     <div class="text-center">
-                         <input placeholder="Enter Your City..." id="search-box"> <button type="button"
-                             class="search-bnt" id="loc-bnt" onclick="search()">Locate</button>
-                     </div>
-                     <div id="output-sec" style='color:white'>
-
-                     </div>
+                     <p class = "notice-txt">With the A40 FIt Card®, you get access to AbCrunch 
+                        locations worldwide!</p>
+                        <h6 id='near-by'></h6>
+                     <div id="output-sec"></div>
                  </div>
+        <div class="col-md-8" style="padding:0">
+                     <div id="map"></div>
+                </div>
           </div>
       </div>
     <script src = "./JS/script.js"></script>
