@@ -88,11 +88,11 @@ body{
 .jumbotron{
     margin:0px;
    color:rgb(255, 255, 255);
-   background-image: url('https://www.debt.com/wp-content/uploads/2018/02/gym-couple-exercise.jpg');
+   background-image: url('../images/membership-hero.jpg');
    background-position: center fixed;
    background-repeat: no-repeat;
    background-size: 100% 100%;
-   height:85vh;
+   height:75vh;
    background-color:#00000000;
 }
 .col-sm-4,.col-sm-8{
@@ -101,7 +101,12 @@ body{
 title{
     padding:50px 0 0 0;
 }
-
+.hero-text{
+    position: relative;
+    top:25%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
 .container-fluid {
     background-color: #180025;
     margin: 0px;
