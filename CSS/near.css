@@ -83,7 +83,7 @@ html,body {
  }
 
   #map {
-      height: 100vh;
+      height: 60vh;
       width: 100%;
      
   }
@@ -167,6 +167,9 @@ html,body {
     .locate-sec{
         padding-top:10px;
     }
+    .col-md-8{
+        margin:0 25px;
+    }
 }
  @media screen and (max-width:576px){
        .navbar-toggle {
@@ -205,6 +208,7 @@ html,body {
            display: block;
        }
        #map{
-           height:90vh;
+           margin:5px 25px;
        }
+  
  }

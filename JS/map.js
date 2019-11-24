@@ -177,6 +177,7 @@ const search = () =>{
     let input = document.getElementById('search-box').value
     let outputSec = document.getElementById('output-sec');
     let nearHeader = document.getElementById('near-by');
+    let mapBox = document.getElementById('map');
     let results = "";
     outputSec.style.display = "block";
     if(input == ""){
@@ -188,6 +189,9 @@ const search = () =>{
     })
        nearHeader.style.display = "block";
        nearHeader.innerHTML = `Clubs Near ${input}`
+    
+           mapBox.style.height = "100%";
+    
     if(filtered.length == 0){
         nearHeader.innerHTML = `No Clubs Found Near "${input}" `;
         filtered = locations.filter(locoObj => {
