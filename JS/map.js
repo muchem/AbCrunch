@@ -19,21 +19,25 @@ searchBox.addEventListener("keyup", function (event) {
         document.getElementById("loc-bnt").click();
     }
 });
-const search = async () =>{
+
+const search = async () => {
     const url = '../Data/locations.json';
     const response = await fetch(url);
-    const locations = await response.json();
+    const locations = await JSON.parse(response);
     let input = document.getElementById('search-box').value
     let outputSec = document.getElementById('output-sec');
     let nearHeader = document.getElementById('near-by');
     let mapBox = document.getElementById('map');
     let results = "";
+
     outputSec.style.display = "block";
+
     if(input == ""){
         outputSec.style.display = "none";
         alert('Please enter a city..');
     }
-    let filtered = locations.filter(locoObj =>{
+
+    let filtered = locations.filter(locoObj => {
         return locoObj.city.toLocaleLowerCase() == input.toLocaleLowerCase();
     })
        nearHeader.style.display = "block";
@@ -46,6 +50,7 @@ const search = async () =>{
         return locoObj.city[0].toLocaleLowerCase() == input[0].toLocaleLowerCase();
         })
     } 
+
     filtered.forEach(location =>{
         results += `
         <div class = "address-box">
@@ -56,5 +61,6 @@ const search = async () =>{
         <button class = "join-bnt">Join Now</button>
         </div>`
     }) 
+
     outputSec.innerHTML = results;
 }
