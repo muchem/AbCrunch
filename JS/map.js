@@ -23,7 +23,8 @@ searchBox.addEventListener("keyup", function (event) {
 const search = async () => {
     const url = '../Data/locations.json';
     let response = await fetch(url);
-    let locations = await JSON.parse(JSON.stringify(response));
+    let locations =  JSON.parse(JSON.stringify(response));
+    console.log(locations);
     let input = document.getElementById('search-box').value;
     let outputSec = document.getElementById('output-sec');
     let nearHeader = document.getElementById('near-by');
