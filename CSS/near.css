@@ -25,7 +25,7 @@ html,body {
      -webkit-box-flex: 1;
      -ms-flex: 1;
      flex: 1;
-     padding: 3px 20px;
+     padding: 3px 0px;
      font-family: 'Staatliches',
          cursive;
  }
@@ -83,15 +83,12 @@ html,body {
  }
 
   #map {
-      height: 60vh;
-      width: 100%;
-     
+    height:85vh;
+    margin-bottom:10px;
   }
   .locate-sec{
-
     width:90%;
-      margin-left:0px;
-    
+    margin-left:0px;
 }
 .search-bnt{
     color:#f2f2f2;
@@ -100,7 +97,6 @@ html,body {
     border:solid #1b1b1b 1px;
 }
 .locate-txt{
-  
     color:#f2f2f2;
     padding-top:20px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -115,14 +111,11 @@ html,body {
     background-color:white;
     padding:10px 20px 50px 10px;
     color:black;
-      border:1px solid #ffffff;
-      box-shadow: 2px 2px 9px 2px #d1d1d1;
-  
+    border:1px solid #ffffff;
+    box-shadow: 2px 2px 9px 2px #d1d1d1;
     margin-bottom: 20px;
     margin-right: 10px;
-     margin-left: 10px;
-
-   
+    margin-left: 10px; 
 }
 .address-box img{
     width:12px;
@@ -138,7 +131,7 @@ html,body {
     overflow: scroll;
     margin:15px;
     width:100%;
-     display:none;
+    display:none;
 }
 .area-txt{
     color:#440044;
@@ -158,11 +151,42 @@ html,body {
     background-color:#a321a3;
     padding:5px;
     border: solid 1px;
-      border-radius: 3px;
+    border-radius: 3px;
+}
+
+
+.container-fluid {
+    background-color: #180025;
+    margin: 0px;
+}
+
+li {
+    list-style: none;
+    margin: 0px 5px 3px 0px;
+    color: #f2f2f2;
+}
+
+.d-flex {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.link-box {
+    padding: 20px 0 0 0;
+}
+.row{
+    margin:0;
+}
+#logo {
+    width: 30px;
+    height: 30px;
 }
 @media screen and (max-width:768px){
     #map {
-        margin-top: 5px;
+        margin-top: 0px;
     }
     .locate-sec{
         padding-top:10px;
@@ -174,7 +198,7 @@ html,body {
  @media screen and (max-width:576px){
        .navbar-toggle {
            display: block;
-           margin-left: 5px;
+        
        }
        #output-sec{
              margin:30px 20px;
@@ -187,7 +211,7 @@ html,body {
            -webkit-box-orient: vertical;
            -webkit-box-direction: normal;
            -ms-flex-direction: column;
-           flex-direction: column;
+           flex-direction: column; 
        }
 
        .nav-link-box ul {
@@ -208,7 +232,7 @@ html,body {
            display: block;
        }
        #map{
-           margin:5px 25px;
+           margin:0px 25px 25px;
        }
   
  }

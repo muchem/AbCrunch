@@ -20,9 +20,9 @@ searchBox.addEventListener("keyup", function (event) {
     }
 });
 const search = async () =>{
-       const url = '../Data/locations.json';
-       const response = await fetch(url);
-       const locations = await response.json();
+    const url = '../Data/locations.json';
+    const response = await fetch(url);
+    const locations = await response.json();
     let input = document.getElementById('search-box').value
     let outputSec = document.getElementById('output-sec');
     let nearHeader = document.getElementById('near-by');
@@ -37,10 +37,9 @@ const search = async () =>{
         return locoObj.city.toLocaleLowerCase() == input.toLocaleLowerCase();
     })
        nearHeader.style.display = "block";
-       nearHeader.innerHTML = `Clubs Near ${input}`
+       nearHeader.innerHTML = `Clubs Near ${input}`;
     
-           mapBox.style.height = "100%";
-    
+
     if(filtered.length == 0){
         nearHeader.innerHTML = `No Clubs Found Near "${input}" `;
         filtered = locations.filter(locoObj => {
@@ -55,8 +54,7 @@ const search = async () =>{
         <img src ="https://p7.hiclipart.com/preview/517/350/522/paper-google-map-maker-computer-icons-world-map-location-icon.jpg">
         ${location.address}</h6>
         <button class = "join-bnt">Join Now</button>
-        </div>
-        `
+        </div>`
     }) 
     outputSec.innerHTML = results;
 }

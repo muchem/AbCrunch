@@ -21,8 +21,9 @@
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  padding: 3px 20px;
-  font-family: 'Staatliches', cursive;
+  padding: 3px 0px;
+  font-family: 'Staatliches',
+ cursive;
 }
 
 .logo h3 {
