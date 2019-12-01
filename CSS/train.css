@@ -243,7 +243,7 @@ li {
       }
 
       .nav-link-box ul {
-          margin-right: 50px;
+          margin-right:65px;
       }
 
       .nav-link-box {
@@ -267,4 +267,7 @@ li {
     .title{
         font-size:20px
     }
+      .nav-link-box ul {
+          margin-right: 120px;
+      }
 }

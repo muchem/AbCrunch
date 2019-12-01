@@ -183,7 +183,7 @@ body{
          flex-direction: column;
        }
       .nav-link-box ul {
-          margin-right: 50px;
+          margin-right: 65px;
       }
        .nav-link-box {
          display: none;
@@ -217,5 +217,10 @@ body{
       }
       
     }
+  @media screen and (max-width:320px){
+       .nav-link-box ul {
+         margin-right: 120px;
+       }
+  }
 
  

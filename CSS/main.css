@@ -231,7 +231,7 @@ li {
             flex-direction: column;
   }
   .nav-link-box ul {
-    margin-right: 50px;
+    margin-right: 65px;
   }
   .nav-link-box {
     display: none;
@@ -263,6 +263,12 @@ li {
   }
   .newsletter-box {
     padding: 10px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .nav-link-box ul {
+    margin-right: 120px;
   }
 }
 /*# sourceMappingURL=main.css.map */

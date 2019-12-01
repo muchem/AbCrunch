@@ -160,7 +160,7 @@ li {
   }
 
   .nav-link-box ul {
-      margin-right: 50px;
+      margin-right: 65px;
   }
 
   .nav-link-box {
@@ -177,4 +177,9 @@ li {
   .active {
       display: block;
   }
+}
+@media screen and (max-width:576px){
+     .nav-link-box ul {
+         margin-right: 120px;
+     }
 }
