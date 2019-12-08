@@ -81,7 +81,13 @@ html,body {
  #toggle-icon {
      margin-bottom: 14px;
  }
-
+.jumbotron{
+    background-image: url("../images/weightroom.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:40vh;
+}
   #map {
     height:85vh;
     margin-bottom:10px;
