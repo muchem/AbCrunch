@@ -223,7 +223,16 @@ li {
        .logo {
            margin-right: 350px;
        }
-
+       .jumbotron{
+           height:30vh;
+       }
+       .locate-txt h2{
+           font-size:30px;
+           padding-top:20px;
+       }
+       #search-box{
+           width:50%;
+       }
        .nav {
            -webkit-box-orient: vertical;
            -webkit-box-direction: normal;
@@ -258,5 +267,7 @@ li {
         .nav-link-box ul {
             margin-right: 120px;
         }
-
+        .locate-txt h2{
+            font-size:25px;
+        }
  }
