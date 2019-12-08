@@ -40,7 +40,7 @@ const search = async () => {
         return locoObj.city.toLocaleLowerCase() == input.toLocaleLowerCase();
     })
        nearHeader.style.display = "block";
-       nearHeader.innerHTML = `Clubs Near ${input}`;
+       nearHeader.innerHTML = `Clubs Near "${input}"`;
     
 
     if(filtered.length == 0){
