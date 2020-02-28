@@ -1,5 +1,7 @@
 # AbCrunch
 
+ AbCrunch is a Fitness Center that offers gym memberships and training.The front end makes use of bootstrap's grid system for a responsive user experience and Sass for clean versitle code. The application also features a gyms near me page running asynchronous javascript code to render gym location data from server.
+
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
