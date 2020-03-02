@@ -80,6 +80,8 @@ html,body {
 
  #toggle-icon {
      margin-bottom: 14px;
+     width:30px;
+     height:25px;
  }
 .jumbotron{
     background-image: url("../images/weightroom.jpg");

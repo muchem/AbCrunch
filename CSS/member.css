@@ -82,6 +82,8 @@ body{
 
 #toggle-icon {
     margin-bottom: 14px;
+    width:30px;
+    height:25px;
 }
 
 /**/
@@ -151,9 +153,6 @@ li {
     }
 }
 @media screen and (max-width:768px){
-    .nav-item{
-        border-bottom:solid #75757560 1px;
-      }
       .last-item{
         border:none;
       }
